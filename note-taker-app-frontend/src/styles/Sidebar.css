@@ -1,0 +1,28 @@
+.sidebar {
+    width: 300px;
+    height: 100vh;
+    background-color: #f5f7fa;
+    padding: 20px 0;
+    align-items: center;
+    /* position: fixed; */
+  }
+  
+  .sidebar-icons .icon {
+    display: flex;
+    font-size: 24px;
+    color: #a1a1a1;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .icon.active, .icon:hover {
+    color: #3f72af;
+  }
+  
+  .sidebar-profile .profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
