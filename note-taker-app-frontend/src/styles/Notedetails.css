@@ -1,0 +1,94 @@
+.note-details-page {
+    padding: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.details-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: linear-gradient(135deg, #6a82fb, #fc5c7d); /* Gradient background */
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 0.9em;
+    border-radius: 50px; /* Rounded button */
+    color: white; /* Text color */
+    transition: background 0.3s, transform 0.2s;
+}
+
+.back-button:hover {
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.note-title {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+    margin-right: 150px;
+}
+
+.details-content {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow */
+    margin-bottom: 20px;
+}
+
+.note-content {
+    font-size: 1em;
+    color: #333;
+    margin: 0;
+    white-space: pre-wrap;
+}
+
+.note-date {
+    display: block;
+    font-size: 0.85em;
+    color: #888;
+    margin-top: 15px;
+}
+
+.details-actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.action-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 15px;
+    background: linear-gradient(135deg, #28a745, #d4edda); /* Green gradient */
+    border: none;
+    border-radius: 50px; /* Rounded button */
+    cursor: pointer;
+    color: white; /* Text color */
+    transition: background 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+.action-button:hover {
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.action-button.delete {
+    background: linear-gradient(135deg, #ff6b6b, #ffcccc); /* Red gradient for delete button */
+}
+
+.action-button.delete:hover {
+    background: linear-gradient(135deg, #e65c77, #ffb3b3); /* Darker red on hover */
+}

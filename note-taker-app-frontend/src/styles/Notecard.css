@@ -1,0 +1,32 @@
+/* styles/NoteCard.css */
+
+.note-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.note-card:hover {
+    transform: translateY(-5px);
+}
+
+.note-card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.note-card-content {
+    color: #666;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.note-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
